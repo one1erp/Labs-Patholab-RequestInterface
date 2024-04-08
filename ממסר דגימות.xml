@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Main>
+  <Header>
+    <CaseFile>59273684</CaseFile>U_CASE_FILE בוצע NEW FIELD
+    <RequestNum>72789515</RequestNum>U_REQUEST_NUM בוצע NEW FIELD
+    <XMLDate>03092020</XMLDate>לא רלוונטי
+    <XMLHr>080900</XMLHr>לא רלוונטי
+    <ReqNumLab>72789515</ReqNumLab>לשאול את הילה האם כמו  RequestNum
+    <SUPCode>AS</SUPCode>לעשות וולידציה בקוד
+    <Instname>קופח מכבי סל</Instname>CUSTOMER_ID מחכה לטבלת המרה
+    <HosCode>59</HosCode>NEW FIELD LINK TO CLINIC U_CLINIC_ID בוצע
+    <UnitCode>59382</UnitCode>NEW FIELD LINK TO CLINIC U_CLINIC_ID בוצע
+    <Status>1</Status>לא רלוונטי
+    <UpdateNumber>0</UpdateNumber>לא רלוונטי
+    <UpdateReason/>לא רלוונטי
+    <IDPatCode>0</IDPatCode> NEW FIELD LINK TO Client PATIENT בכל הדוגמאות מגיע 0 - לשאול את הילה
+    <PatID>25027863</PatID> NEW FIELD LINK TO ClientPATIENT
+    <BD>19721225</BD>NEW FIELD LINK TO Client PATIENT
+    <PatLastName>קורדוני</PatLastName>PATIENT
+    <PatFirstName>דוד</PatFirstName>PATIENT
+    <Sex>1</Sex>PATIENT
+    <Preg>0</Preg>לא רלוונטי
+    <PregWeek>0</PregWeek>לא רלוונטי
+    <PerioDate/>לא רלוונטי
+<ExecuteTime>0309200809</ExecuteTime>to Add field
+  <RelatedDocID>58470089</RelatedDocID>NEW FIELD LINK TO SUPPLIER U_IMPLEMENTING_PHYSICIAN
+  <RelatedDocName>רופא מומחה</RelatedDocName>NEW FIELD LINK TO SUPPLIER  U_IMPLEMENTING_PHYSICIAN האם לבדוק את השם
+  <DocCountCode/>
+    <DocFaxNum/>
+    <ExecDocID>11514932</ExecDocID>
+    <ExecDocName>פפר חורחה</ExecDocName>
+    <RefReason/>
+    <PDFFiles>
+      <FileName>patorefer_16242035.pdf</FileName>
+    </PDFFiles>
+  </Header>
+  <Body>
+    <TestTypeCode>98</TestTypeCode>
+    <Tests>
+      <Test>
+        <TestCode>88309</TestCode>
+        <SampleBarCode>72789515902</SampleBarCode>
+        <NumOfSamples>1</NumOfSamples>
+        <UrgencyPat>0</UrgencyPat>
+        <ANSTYPE/>
+      </Test>
+    </Tests>
+    <LabTests>
+      <Test>
+        <LabTestResult/>
+        <LabTestUnit/>
+        <LowNormLabTest/>
+        <HighNormLabTest/>
+        <CodedResult/>
+      </Test>
+    </LabTests>
+    <TxtLabTestResult/>
+    <Pathology>
+      <Test>
+        <OrganNamePat/>
+        <OrganLocPat/>
+        <OrganSidePat/>
+        <ContainerTYP>1</ContainerTYP>
+        <BiopsNumPat>1</BiopsNumPat>
+        <HystSize>2</HystSize>
+        <FROZENYN>0</FROZENYN>
+        <SlideNumPat/>
+        <ProcedurePat/>
+        <PatDetail/>
+      </Test>
+    </Pathology>
+    <DiagnosePat/>
+    <DiagnosePatCode/>
+    <SNOMEDPat1/>
+    <SNOMEDPat2/>
+    <PatYN/>
+    <DiagnosticTime/>
+    <ANSDocID/>
+    <ANSDocName/>
+    <ExtParameters>
+      <Params>
+        <ParameterCode/>
+        <HebText/>
+        <EngText/>
+        <Numerical/>
+      </Params>
+    </ExtParameters>
+  </Body>
+</Main>
+
+
+
+
+<!--U_CLIENT_ID
+U_CUSTOMER_ID
+U_PATIENT_GENDER
+U_REFERRING_PHYSICIAN_ID
+
+U_SAMPLE_MSG_ID
+U_CASE_FILE
+U_REQUEST_NUM
+U_INSTNAME
+U_IDPATCODE
+U_PATIENT_ID
+U_PATIENT_LN
+U_PATIENT_FN
+U_PATIENT_BD
+U_PATIENT_GENDER
+U_CLIENT_ID
+U_REFERRING_PHYSICIAN_ID
+U_CLINIC_ID
+U_CUSTOMER_ID-->
